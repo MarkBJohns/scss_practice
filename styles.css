@@ -1,0 +1,254 @@
+html {
+  font-size: 62.5%;
+}
+html body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin-top: 19.4rem; /* Room for the fixed heaer */
+}
+
+/* Navbar settings --------------------------- */
+.navbar {
+  top: 0;
+  height: 9.4rem;
+  width: 100%;
+  background-color: #0A1451;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+}
+.navbar__logo {
+  position: fixed;
+  justify-content: center;
+  left: 2rem;
+  height: 6.9rem;
+  width: 12rem;
+}
+.navbar__phone-icon {
+  margin-left: 2rem;
+  height: 4.2rem;
+  width: 4rem;
+}
+.navbar__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-left: 2rem;
+}
+.navbar__link:hover {
+  text-shadow: 0px 0px 5px whitesmoke;
+}
+.navbar__link--contact {
+  border: 1px solid white;
+  padding: 0.3rem 2rem;
+  border-radius: 25%/100%;
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+/* Auto upholstery settings------------------- */
+.auto {
+  margin: 10rem;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.auto__title {
+  margin: 0;
+  line-height: 1;
+}
+.auto__title--light {
+  font-size: 9rem;
+  font-weight: 275;
+}
+.auto__title--bold {
+  font-size: 7.5rem;
+  font-weight: 700;
+}
+.auto__description {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.auto__button {
+  height: 5.3rem;
+  width: 22.9rem;
+  background-color: #0A1451;
+  color: white;
+  border: none;
+  font: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.auto__image {
+  border: 1px solid black;
+  height: 50.7rem;
+  width: 54.7rem;
+}
+
+/* Main content settings---------------------- */
+.main__service {
+  margin-top: 10rem;
+  height: 86.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .leather-vinyl, .main .custom-upholstery {
+  background-color: #f5f5f5;
+  width: 100%;
+}
+.main .leather-vinyl__image--big, .main .custom-upholstery__image--big {
+  margin-left: 10rem;
+  border: 1px solid black;
+  height: 55.5rem;
+  width: 49.3rem;
+}
+.main .leather-vinyl__image--small, .main .custom-upholstery__image--small {
+  border: 1px solid black;
+  height: 22.2rem;
+  width: 16.6rem;
+}
+.main .leather-vinyl__content, .main .custom-upholstery__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  margin-right: 20rem;
+  justify-content: space-between;
+}
+.main .leather-vinyl__title, .main .custom-upholstery__title {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.main .leather-vinyl__description, .main .custom-upholstery__description {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main .leather-vinyl__image-collage, .main .custom-upholstery__image-collage {
+  display: flex;
+  justify-content: space-between;
+}
+.main .headliners {
+  background-color: #ffffff;
+  width: 100%;
+  flex-direction: row-reverse;
+}
+.main .headliners__content {
+  margin-left: 10rem;
+  margin-right: 20rem;
+}
+.main .headliners__title {
+  font-size: 2.8rem;
+  font-weight: 700rem;
+}
+.main .headliners__description {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.main .headliners__image-collage {
+  display: flex;
+  justify-content: space-between;
+}
+.main .headliners__image--big {
+  margin-right: 10rem;
+  border: 1px solid black;
+  height: 51.4rem;
+  width: 45.7rem;
+}
+.main .headliners__image--small {
+  border: 1px solid black;
+  height: 22.2rem;
+  width: 16.6rem;
+}
+
+/* Footer settings---------------------------- */
+.footer {
+  background-color: #0A1451;
+  color: white;
+  height: 69.6rem;
+  font-family: "Inter", sans-serif;
+}
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 10rem;
+}
+.footer .contact__logo {
+  height: 8.6rem;
+  width: 15rem;
+}
+.footer .contact__title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+.footer .footer__contact--location, .footer .footer__contact--phone {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.footer .location__icon {
+  height: 3.555rem;
+  width: 3.251rem;
+}
+.footer .location__address {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.footer .phone__icon {
+  height: 3.16rem;
+  width: 2.89rem;
+}
+.footer .phone__number {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.footer__quick-links {
+  display: flex;
+  flex-direction: column;
+}
+.footer .quick-links__title {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+.footer .quick-links__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1.5rem;
+}
+.footer .quick-links__link:hover {
+  text-shadow: 0px 0px 5px whitesmoke;
+}
+.footer .hours__title {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+.footer .hours__table {
+  font-size: 2rem;
+  font-weight: 400;
+  border-spacing: 0 1.5rem;
+}
+.footer .hours__table td {
+  padding: 0;
+}
+.footer .hours__table td:nth-child(2) {
+  padding-left: 5rem;
+}
+.footer__copyright {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 400;
+}/*# sourceMappingURL=styles.css.map */
